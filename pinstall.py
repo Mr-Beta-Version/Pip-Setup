@@ -5,11 +5,11 @@ import os
 from os import system as run
 py = 'python3 -m'
 
-def b_install(module_name):
+def install(module_name):
     run(f'{py} pip install --force-reinstall {module_name}'
 """
 Uses:
-from pinstall import b_install as m_install
+from pinstall import install as m_install
 try:import requests
 except:m_install('requests')
 try:import rich
