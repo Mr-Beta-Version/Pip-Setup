@@ -9,10 +9,10 @@ def install(module_name):
     run(f'{py} pip install --force-reinstall {module_name}')
 """
 Uses:
-from pinstall import install as m_install
+from pinstall import install as ins
 try:import requests
-except:m_install('requests')
+except:ins('requests');import requests
 try:import rich
-except:m_install('rich')
+except:ins('rich');import rich
 
 """
