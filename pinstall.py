@@ -6,7 +6,7 @@ from os import system as run
 py = 'python3 -m'
 
 def install(module_name):
-    run(f'{py} pip install --force-reinstall {module_name}'
+    run(f'{py} pip install --force-reinstall {module_name}')
 """
 Uses:
 from pinstall import install as m_install
