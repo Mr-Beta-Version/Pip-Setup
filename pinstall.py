@@ -15,7 +15,9 @@ def b_install(module):
 """
 Uses:
 from pinstall import b_install as m_install
-m_install('requests')
-m_install('rich')
+try:import requests
+except:m_install('requests')
+try:import rich
+except:m_install('rich')
 
 """
