@@ -6,3 +6,4 @@ while True:
     except:
         run('pip install --force-reinstall requests')
         continue
+print('Done ✓')
